@@ -1,0 +1,15 @@
+class AVLwithParent
+{
+	// Pointer to the left and the right subtree
+	public AVLwithParent left;
+	public AVLwithParent right;
+
+	// Stores the data in the node
+	public int key;
+
+	// Stores the parent pointer
+	public AVLwithParent par;
+
+	// Stores the height of the current tree
+	public int height;
+}
